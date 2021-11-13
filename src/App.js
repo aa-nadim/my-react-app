@@ -1,10 +1,9 @@
-import './App.css';
-import Zindex from './components/Zindex';
+import ReactConfetti from './components/ReactConfetti/ReactConfetti'
 
 function App() {
   return (
-    <div className="App">
-      <Zindex />
+    <div>
+      <ReactConfetti />
     </div>
   );
 }
